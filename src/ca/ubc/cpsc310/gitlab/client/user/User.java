@@ -27,6 +27,7 @@ public class User implements IUser {
 	}
 	
 	@Override
+	//look at this wonderous comment
 	public String getLanguage() {
 		return (String) data.get(LANG);
 	}
